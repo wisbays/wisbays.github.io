@@ -1,1 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: snow;
+    font-family: 'Reem Kufi'
+}
+
+.wisbays-navbar {
+    float: right;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.wisbays-navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: dimgrey;
+    padding-right: 15px; 
+}
+
+.wisbays-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px){
+    .wisbays-container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px){
+    .wisbays-container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px){
+    .wisbays-container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+    .wisbays-container {
+        max-width: 1140px;
+    }
+}
+
+.wisbays-profile {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.wisbays-profile img {
+    border-radius: 100%;
+    width: 35%;
+}
+
+.wisbays-profile h1, p {
+    color: dimgrey;
+}
+
+.wisbays-profile h1 {
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+.wisbays-profile p {
+    font-size: 3vw;
+    font-weight: 300;
+}
+
+.social-media {
+    padding: 10px 10px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.social-media i {
+    font-size: 3vw;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+@media only screen and (max-width: 768px){
+    .wisbays-profile {
+        width: 100%;
+        margin: auto;
+    }
+}
